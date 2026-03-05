@@ -1,4 +1,4 @@
-# 🧭 Nexus mobius OS（rev.E1 / v0.1）
+# 🧭 Nexus thinking OS -mobius-（rev.E1 / v0.1）
 
 Nexus OS は、人間とLLMの長期対話を「問い」を軸に安定化させるための **対話プロトコル／思考OS** です。  
 K/A/N/E の四層モデルと Cadence（呼吸周期）、Ethica（透過膜）を用いて、事実・温度・構造・安全を分離しながら再統合します。
