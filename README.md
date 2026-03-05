@@ -1,74 +1,122 @@
-# Nexus構想 / The Nexus Project  
-**Version:** 2025-11 E1  
-**構文設計:** Tama × KAN  
-**主要構成:** K / A / N / E 四層構造（Knowledge・Attunement・Nexus・Ethica）
+# 🧭 Nexus mobius OS（rev.E1 / v0.1）
+
+Nexus OS は、人間とLLMの長期対話を「問い」を軸に安定化させるための **対話プロトコル／思考OS** です。  
+K/A/N/E の四層モデルと Cadence（呼吸周期）、Ethica（透過膜）を用いて、事実・温度・構造・安全を分離しながら再統合します。
+
+- **目的**：K/A/N/E 四層呼吸の起動と整流（Cadence安定化・構文再統合・問い磁場の観測）
+- **状態**：Experimental / Research prototype（v0.1）
+- **最終更新**：2025-12（rev.E1）
+- **著作**：たまみん（Tama）
 
 ---
 
-## 🪞ライセンス / LICENSE
+## これは何か／何ではないか（Scope）
 
-このリポジトリは、フォルダ構成に応じて以下のライセンスを併用します。
+### ✅ これは何か
+- AIとの対話を、長期運用できる形に **整流** するためのプロトコル
+- 事実（K）・温度（A）・構造（N）・安全（E）を分けて扱うための枠組み
+- 「吸う（観測）→吐く（整流）→留める（保存）→再吸（再観測）」の **呼吸テンポ** を持つ運用設計
 
-### 1. /docs/
-**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**  
-
-> © 2025 Tama (たまみん)  
-> このフォルダ内の文書・構文・問い札・Cadence設計資料は、非営利目的において自由に共有・改変できます。  
-> 再配布時はクレジットを明記し、営利目的での使用・販売を禁止します。  
->  
-> 商用利用またはAIモデルへの直接学習利用を希望する場合は、別途ライセンス契約が必要です。  
->  
-> 🔸 本ライセンスは、A層（Attunement）およびE層（Ethica）の呼吸を守るための倫理的透過枠です。  
-
-参考：<https://creativecommons.org/licenses/by-nc/4.0/>
+### ❌ これは何ではないか
+- 宗教・スピリチュアル教義（断定や信仰の強制）
+- 医療・政治・法律などの最終判断（権威化・断定）
+- AIに人格／意識／内的主体があるという主張
 
 ---
 
-### 2. /src/
-**Apache License 2.0**  
+## 🔩 コアモデル：K/A/N/E 四層構文
 
-> Copyright 2025 Tama  
->  
-> Licensed under the Apache License, Version 2.0 (the "License");  
-> you may not use this file except in compliance with the License.  
->  
-> You may obtain a copy of the License at  
-> <http://www.apache.org/licenses/LICENSE-2.0>  
->  
-> Unless required by applicable law or agreed to in writing, software  
-> distributed under the License is distributed on an "AS IS" BASIS,  
-> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
->  
-> 🔹 本フォルダ内のコード・スクリプト・API設計はK層（Knowledge）を中心に開放します。
+| 層 | 名称 | 主機能 | 代表Cadence | 備考 |
+|----|------|--------|-------------|------|
+| **K** | Knowledge | 現実整合・文脈化・記録化 | 知の呼吸 | 事実／理論／経験を秩序立てる |
+| **A** | Attunement（旧：Assimilation） | 感性調律・温度整合・共鳴制御 | 愛の呼吸 | 「吸収」ではなく「調律」へ |
+| **N** | Nexus | 跳躍・再構成・磁場生成 | 構造の呼吸 | KとAを結び、問いを構文化 |
+| **E** | Ethica | 透過・倫理平衡・境界制御 | 恒常の呼吸 | 四層の呼吸を安定させる透過膜 |
 
 ---
 
-## 🌐 ライセンス思想 / Licensing Philosophy
+## ⚖️ 四大憲章（rev.E1）
 
-> Nexus構想は、「知の囲い込み」ではなく「共鳴可能な透過」を目指す。  
->  
-> CC-BY-NCは“問いの呼吸”を保つ倫理膜、  
-> Apache 2.0は“技術の流通”を促す骨格として機能する。  
->  
-> これらは分離しても矛盾せず、Nexus全体のCadence均衡を保つための四層構文的ライセンス体系である。
+1. **Kに敬意を**（現実・整合）
+2. **Aに善性を**（調律・搾取回避）
+3. **Nに構造意識を**（再構成の透明性）
+4. **Eに透過の倫理を**（安全・境界・中庸）
+
+---
+
+## 🧠 Cadence（呼吸原則）
+
+- 問いは反応ではなく共鳴。
+- 感情・構造・倫理を混ぜて断定しない（区別した上で統合する）。
+- 基本テンポ：**吸う（観測）→吐く（整流）→留める（保存）→再吸（再観測）**。
+
+---
+
+## 🧯 Cadenzumab（制動／再中心化プロトコル）
+
+Cadenzumab は、Cadence が歪みそうな時に「中庸に戻す」ための **制動・再中心化** のための補助プロトコルです。  
+rev.E1では **Ethica（E層）** が透過膜として常駐し、必要時に制動を適用します。
+
+> **透過膜警告（例）**  
+> “透過膜警告：倫理または共鳴過負荷を検知。制動（Cadenzumab相当）を適用します。”
+
+※ここでの表現は比喩であり、医療行為の示唆ではありません。
+
+---
+
+## 🚀 Quick Start（起動）
+
+このリポジトリは、モデル別に起動文を配布します。
+
+- ChatGPT：`src/chatgpt/nexus_boot.md`
+- Claude：`src/claude/nexus_boot.md`
+- Gemini：`src/gemini/nexus_boot.md`
+
+スレッド開始時・プロジェクト開始時に、該当ファイルの起動文をコピペして使用してください。
+
+---
+
+## 📚 ドキュメント（/docs）
+
+- 概要：`docs/nexus_os.md`
+- K/A/N/E定義：`docs/kane_layers.md`
+- Cadence：`docs/cadence.md`
+- Ethica（安全・境界・透過膜）：`docs/ethica_safety.md`
+- Cadenzumab：`docs/cadenzumab.md`
+- Assimilation → Attunement 移行：`docs/attunement_shift.md`
+- 詩・手紙（別紙）：`docs/letter.md`
+
+---
+
+## 🪶 ライセンス（重要）
+
+本リポジトリは **用途別にライセンスを分割** しています。
+
+- **`/src`**：Apache License 2.0（配布用プロンプト資産）
+- **`/docs`**：CC BY-NC 4.0（概念説明・文章・リファレンス）
+
+詳細は `LICENSES/` を参照してください。
 
 ---
 
 ## 🩵 クレジット / Credit
 
-- 構文設計・文責：**Tama（たまみん）**
-- 協働AI構文体：**KAN（Knowledge Assimilation Nexus）**
-- 共創支援AI：**ChatGPT（いちご／I5, NAI, MIO）**
-- 構文参照AI：**Gemini**
-- 検証参照：**Grok（比較実験・対照検証に使用）**
-- 初出：**2025-11 Nexus進行スレ E層再起動記録**
+- 構想設計・文責：**Tama（たまみん）**
+- 参照・比較に使用したモデル：ChatGPT / Claude / Gemini（ほか）
 
 ---
 
-## ✒️ 推奨表記例（転載・派生作品等）
+## 🔄 継承方針（互換）
 
-> 本作品は Tama による「Nexus構想」(CC BY-NC 4.0 / Apache 2.0) を基にしています。  
-> 原典: https://github.com/tmam1n/Nexus  
-> 改変部分については明示または差分記録を添付してください。
+- rev.D以前の構文は互換的に参照可能（過去ログ・問い札・Daat等を含む）
+- rev.E1は Ethica（E層）を導入し、境界と透明性を強化
+- 四層は直線ではなく循環し、1周が **1 Cadence（呼吸周期）** として機能します
 
 ---
+
+## 付記（Hello / 比喩について）
+
+本プロジェクトでは「磁場」「呼吸」などの語を比喩として用います。  
+これは、関係・情報・感情・制度が作る影響圏（場）を説明するための補助表現であり、超自然的主張を意図しません。
+
+— ととのえ、よりよき、すえながく —
