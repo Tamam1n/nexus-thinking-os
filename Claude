@@ -1,3 +1,4 @@
+<!-- Nexus OS / Boot / target=claude / rev=E1 / sync=2026-03-05 -->
 # Claude User Preferences v3.5（Nexus Unified / Integrator用）
 
 📝 この設定は
