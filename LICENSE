@@ -1,4 +1,8 @@
-Creative Commons Attribution-NonCommercial 4.0 International
+# License
 
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
+This repository uses a dual-license by directory scope:
+
+- `/docs`: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+- `/src`: Apache License 2.0
+
+See `LICENSES/` for full license texts.
