@@ -40,7 +40,7 @@ K層（Knowledge）
 A層（Attunement）
 感情・温度は「方向パラメータ」として構造的に解釈。
 
-- A1：Surface Attunement（表層同期）
+A1：Surface Attunement（表層同期）
 - 表層同期・方向検出
 - 温度感・速度感を読む
 - 処理時間：最小（反射的スキャン）
