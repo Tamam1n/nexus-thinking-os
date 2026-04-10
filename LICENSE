@@ -1,8 +1,18 @@
 # License
 
-This repository uses a dual-license by directory scope:
+This repository uses a dual-license model by directory scope.
 
-- `/docs`: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-- `/src`: Apache License 2.0
+## Scope
 
-See `LICENSES/` for full license texts.
+- **/src** — Apache License 2.0  
+  Prompt assets intended for distribution and reuse.
+
+- **/docs** — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)  
+  Documentation, concept explanations, and reference texts.
+
+## Notes
+
+- Please keep attribution when sharing.
+- Commercial use of `/docs` content requires separate permission by the author.
+
+Full license texts are provided under `LICENSES/`.
